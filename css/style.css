@@ -114,7 +114,7 @@ a {
     color: var(--clr-Off-black)
 } 
 
-@media(min-width: 1200px){
+@media(max-width: 600px){
     .container {
         margin-top: 0;
     }
