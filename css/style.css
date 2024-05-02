@@ -32,6 +32,7 @@ body {
     min-height: 100vh;
     display: grid;
     place-content: center;
+    overflow: hidden;
 
 ul {
     list-style: none;
@@ -115,7 +116,7 @@ a {
     color: var(--clr-Off-black)
 } 
 
-@media(max-width: 600px){
+@media(max-width: 768px){
     .container {
         margin-top: 0;
     }
